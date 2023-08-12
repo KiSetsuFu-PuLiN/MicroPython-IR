@@ -217,4 +217,5 @@ class NEC:
                 print("NEC Receive Abort: Receive Timeout")
                 self._init_receiver_state()
         self._timer.init(mode = Timer.ONE_SHOT, period = int(TIMEOUT_TIME_us/1000), callback = on_receive_data_timeout)
+
 #=============================================
