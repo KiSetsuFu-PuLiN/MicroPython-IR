@@ -9,5 +9,5 @@ Created On 2023/7/17
 '''
 
 #import libraries#============================
-from IR._NEC import NEC
+from IR.__NEC import NEC
 #=============================================
